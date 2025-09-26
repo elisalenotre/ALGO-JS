@@ -151,12 +151,12 @@ function useButton(theme: Theme) {
 // styleOf({ theme: "bright", variant: "ghost", size: "lg" });
 // styleOf({ theme: "dark", variant: "solid", size: "xl" });
 
-// tests useButton
-const bright = useButton("bright");
-bright.styleFor("outline", "lg");
-bright.styleFor("ghost", "sm");
+// // tests useButton
+// const bright = useButton("bright");
+// bright.styleFor("outline", "lg");
+// bright.styleFor("ghost", "sm");
 
-bright.styleFor("ghost", "lg");
+// bright.styleFor("ghost", "lg");
 
-const dark = useButton("dark");
-dark.styleFor("ghost", "lg");
+// const dark = useButton("dark");
+// dark.styleFor("ghost", "lg");
